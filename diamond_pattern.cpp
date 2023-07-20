@@ -7,6 +7,7 @@ int main(){
     cin>>n;
     int n1=(n+1)/2;
     int n2=n1-1;
+    // for upper half
     int i=1;
     while(i<=n1){
         int j=1;
@@ -22,6 +23,7 @@ int main(){
          cout<<endl;
         i++;
     }
+    // for lower half
     int m=1;
     while(m<=n2){
         int k=1;
