@@ -1,4 +1,4 @@
- while(l>=1){
-            cout<<l;
-            l-=1;
-        }
+for(int i=0;i<=n;i++){
+    //     cout<<i<<endl;
+    // }
+    // return 0;
