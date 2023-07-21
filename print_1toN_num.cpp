@@ -2,13 +2,13 @@
 using namespace std;
 
 void print_1_to_n(int n){
-    for (int i=0;i<=n;i++){
-        cout<<i<<end;
+    for (int i=1;i<=n;i++){
+        cout<<i<<endl;
     }
 }
 int main(){
-    // int a;
-    // cin>>a;
-    cout<<print_1_to_n(10);
+    int a;
+    cin>>a;
+    print_1_to_n(a);
     return 0;
 }
