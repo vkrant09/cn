@@ -5,7 +5,7 @@ int multiply(int a,int b){
     return c;
 }
 int main(){
-    int s,d;
+    int s ,d;
     cin>>s>>d;
     cout<<multiply(s,d);
     return 0;

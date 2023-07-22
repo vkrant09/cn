@@ -11,7 +11,7 @@ int main(){
 
 
 // prime number
-bool divided=false;
+bool divided =false;
 for (int d=2;d<n;d+=2){
     if (n%d == 0){
         divided =true;
