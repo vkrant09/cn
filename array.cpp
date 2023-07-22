@@ -1,20 +1,26 @@
 #include<iostream>
+#include<climits>
 using namespace std;
 
 int main(){
-    int a[10];
-    
-    // int n;
-    // cin>>n;
+    int n;
+    cin>>n;
+    int array[100];
     int i=1;
-    while(i<=10){
-        cin>>a[i];
-        
-        i++;
+    for (int i=0;i<n;i++){
+        cin>>array[i];
+    }
+    for(int i =0;i<n;i++){
+        cout<<array[i];
+    }
+int max= INT_MIN;
+for(int i=0;i<n;i++){
+    if(array[i]>max){
+        max=array[i];
 
     }
-    for (int i=0;i<10;i++){
-        cout<<a[i];
-    }
+}
+cout<<"\n"<<"MAXIMUM IS "<<max;
+
     return 0;
 }
