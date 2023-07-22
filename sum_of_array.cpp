@@ -13,15 +13,11 @@ int main(){
     for(int i =0;i<n;i++){
         cout<<array[i];
     }
-int max= INT_MIN;
-// INT_MIN is the negative ifinite value
+int sum=0;
 for(int i=0;i<n;i++){
-    if(array[i]>max){
-        max=array[i];
-
-    }
+    sum=sum+array[i];
 }
-cout<<"\n"<<"MAXIMUM IS "<<max;
+cout<<"\n"<<"sum is "<<sum;
 
     return 0;
 }
