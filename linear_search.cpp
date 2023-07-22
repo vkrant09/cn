@@ -15,7 +15,7 @@ int main(){
         if(array[i]==a){
             cout<<"integer is in the "<< i<<" index";
 
-        }
+        } 
     }
 
     return 0;
