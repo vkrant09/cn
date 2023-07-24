@@ -26,19 +26,21 @@ void selection_sort(int array[], int size)
 int main()
 {
     int n;
+    cout<<"ENTER SIZE OF THE ARRAY: "<<endl;
     cin >> n;
     int array[100];
+    cout<<"ENTER ELEMENTS IN THE ARRAY: "<<endl;
     for (int i = 0; i < n; i++)
     {
         cin >> array[i];
     }
-    cout << "Unsorted array: " << endl;
+    cout << "UNSORTED ARRAY: " << endl;
     for (int i = 0; i < n; i++)
     {
         cout << array[i] << " ";
     }
     selection_sort(array, n);
-    cout << "\nSorted array: " << endl;
+    cout << "\nSORTED ARRAY: " << endl;
     for (int i = 0; i < n; i++)
     {
         cout << array[i] << " ";
