@@ -5,7 +5,7 @@ int main(){
     int a , b;
     cout<<"enter two numbers: "<<endl;
     cin>>a>>b;
-    if ( a==b){
+    if ( a==b){ 
         cout<<"hey these are equal"<<endl;
     }
     else 
