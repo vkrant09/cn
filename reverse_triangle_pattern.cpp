@@ -196,7 +196,7 @@ OUTPUT
 //         int k=1;
 //         while(k<=n-i){
 //         cout<<" ";
-//         k++;
+//         k++; 
 //         }
 //         while(j<=i){
 //          cout<<"*";
