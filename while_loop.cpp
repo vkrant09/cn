@@ -5,7 +5,7 @@ int main()
 {
     int a;
     cout << "enter number : ";
-    cin >> a; 
+    cin >> a;  
     int i = 1;
     while (i <= a)
     {
