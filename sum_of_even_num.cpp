@@ -10,7 +10,7 @@ int main()
     {
         a += i;
         i += 2;
-    }
+    }  
     cout << a;
     return 0;
 }
