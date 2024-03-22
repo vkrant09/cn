@@ -1,42 +1,35 @@
-#include<iostream>
-#include<vector>
+#include <bits/stdc++.h>
+#include<limits>
 using namespace std;
 
-int main(){
-    int t;cin>>t;
-    vector<int> ans;
-    while(t--){
-        int a,b,c;
-        cin>>a>>b>>c;
-        
-        if((b+c)>=3||(b+c)==0){
-            if (b>3&&((b-3)+c)<3){
-           ans.push_back(-1); 
-
-            }
-            else if((b+c)%3==0){
-            int odd= (b+c)/3;
-
-           int  count=a+odd;
-            ans.push_back(count);
-            }
-            else {
-            int odd = ((b+c)/3)+1;
-           
-           int count=a+odd;
-           ans.push_back(count);
-           }
-        }
-        else{
-           ans.push_back(-1); 
-           
-        }
-
-   
-        
+void ans(){
+    int n;cin>>n;
+    int a[n];
+    for(int i=0;i<n;i++){
+        cin>>a[i];
     }
-    for(int i = 0 ; i<ans.size() ; i++){
-        cout<<ans[i]<<endl;
+    int max=INT_MIN;
+    int count=0;
+    for(int i=0;i<n;i++){
+        if(a[i]>max){
+            max=a[i];
+            count=i;
+        } 
+        }
+        int sum=0;
+    for(int i=0;i<=count;i++){
+        sum=sum+a[i];
     }
-    return 0;
+    sum=sum+a[count];
+        
+    
+    cout<<sum<<endl;
+}
+
+int main() {
+int t;cin>>t;
+while(t--){
+    ans();
+}
+
 }
